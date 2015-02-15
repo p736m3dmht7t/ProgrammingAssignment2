@@ -1,7 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix() uses the <<- operator to assign a value to an object in an
+## environment that is different from the current environment.
 
-## Write a short comment describing this function
+## Below are two functions that are used to create a special object that stores a
+## matrix and caches its inverse.
+
+## The first function, makeCacheMatrix creates a special "matrix", which is really
+## a list containing functions to
+##
+## 1. Set the matrix -- set()
+## 2. Get the matrix -- get()
+## 3. Set the inverse of the matrix -- setinverse()
+## 4. Get the inverse of the matrix -- getinverse()
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
