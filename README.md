@@ -1,5 +1,5 @@
 ## Introduction
-Name removed for peer assessment phase<P>
+Name removed for peer assessment phase
 February 2015 -- Brighton, Michigan, USA<P>
 
 This second programming assignment required that I write an R
