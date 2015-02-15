@@ -1,17 +1,19 @@
 ## Introduction
-Name removed for peer assessment phase
-February 2015 -- Brighton, Michigan, USA<P>
+Name removed for peer assessment phase<p>
+February 2015 -- Brighton, Michigan, USA<p>
 
 This second programming assignment required that I write an R
 function that is able to cache a potentially time-consuming computation,
 finding the inverse of a matrix. Finding the inverse of a matrix is typically
 a fast operation, however, as the dimensions of the matrix become large, the
 computational complexity increases on the order of n raised to the 2.8 to 3.0
-power, depending upon the implementation of the algorithm used to compute it.<P><P>
+power, depending upon the implementation of the algorithm used to compute it.<p><p>
+
 On my MacBook Pro (late 2013) equipped with an Intel Core i5 processor with a clock
 frequency of 2.6 GHz, a 2500 x 2500 matrix requires approximately 35 seconds
 to invert.  The solve.default() function included with R version 3.1.2 (2014-10-31)
-requires time on the order of n^2.8 to invert this large matrix.<P><P>
+requires time on the order of n^2.8 to invert this large matrix.<p><p>
+
 This combination
 of processing power and algorithm may make the time required too long to compute
 the inverse, especially if it has to be computed repeatedly (e.g. in a loop).
